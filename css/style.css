@@ -710,3 +710,29 @@ footer {
     width: 100%;
   }
 }
+
+/* ----- MEDIA QUERY == 360px / RESPONSIVE ----- */
+@media screen and (max-width: 392px) {
+  .featured-image {
+    order: 1;
+    justify-content: center;
+    min-height: 100px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .image,
+  .image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .featured-name {
+    font-size: 20px;
+  }
+
+  .featured-text {
+    min-height: 0vh;
+    margin-top: 30px;
+  }
+}
